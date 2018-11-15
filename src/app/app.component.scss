@@ -1,0 +1,137 @@
+$color-text: #000;
+$text-items: #333;
+$price: #313131;
+$border: #fff;
+$background: #f2f2f2;
+
+.book {
+  color: $color-text;
+  margin-top: 77px;
+
+  &__img {
+    background: url('~src/assets/img/book_img.jpg') no-repeat;
+    height: 650px;
+    width: 420px;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  &__autor {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+
+  &__descryption {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 35px;
+  }
+
+  &__price {
+    color: $price;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 47px 0 31px;
+  }
+}
+
+.pay {
+  background-color: $background;
+  border: 1px solid $border;
+  margin-top: 100px;
+  text-align: center;
+
+  &__title {
+    color: $text-items;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 89px 0 87px;
+  }
+
+  &__items-icon {
+    height: 40px;
+    margin: auto auto 24px;
+    width: 60px;
+
+    &_shop {
+      background: url('~src/assets/icons/shopping.png') no-repeat;
+    }
+
+    &_mail {
+      background: url('~src/assets/icons/mailbox.png') no-repeat;
+    }
+
+    &_credit {
+      background: url('~src/assets/icons/credit_card.png') no-repeat;
+    }
+
+    &_shipped {
+      background: url('~src/assets/icons/shipped.png') no-repeat;
+    }
+  }
+
+  &__items-text {
+    color: $text-items;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 100px;
+  }
+}
+
+.people {
+
+  &__man {
+    height: 261px;
+    margin: 0 auto 25px;
+    width: 261px;
+
+    &_one {
+      background: url('~src/assets/img/man_1.jpg') no-repeat;
+    }
+
+    &_two {
+      background: url('~src/assets/img/man_2.jpg') no-repeat;
+    }
+
+    &_tree {
+      background: url('~src/assets/img/man_3.jpg') no-repeat;
+    }
+
+    &_four {
+      background: url('~src/assets/img/man_4.jpg') no-repeat;
+    }
+
+    &_five {
+      background: url('~src/assets/img/man_5.jpg') no-repeat;
+    }
+
+    &_six {
+      background: url('~src/assets/img/man_6.jpg') no-repeat;
+    }
+
+    &_seven {
+      background: url('~src/assets/img/man_7.jpg') no-repeat;
+    }
+
+    &_eight {
+      background: url('~src/assets/img/man_8.jpg') no-repeat;
+    }
+  }
+
+  &__title {
+    color: $text-items;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 27px;
+    margin: 89px 0 69px;
+    text-align: center;
+  }
+}
